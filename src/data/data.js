@@ -1,44 +1,39 @@
 import { AiFillAppstore } from "react-icons/ai";
 import {  FaBrain} from "react-icons/fa";
-import { SiProgress} from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
+import { SiTypescript } from "react-icons/si";
+
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <CgWebsite />,
+    title: "Web Development",
+    des: "Have completed a Full Stack Development Bootcamp. I have already developed various projects for myself and clients. If interested please look at my gitHub.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    icon: <SiTypescript />,
+    title: "TypeScript",
+    des: "Currently working on learning typescript in order to create exceptional user experiences and delivering high-quality software solutions",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    icon: <AiFillAppstore />,
+    title: "App Development",
+    des: "Currently working on learning React Native so as to contribute to an develop an app from idea to product",
   },
   {
     id: 4,
-    icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    title: "Experience",
+    des: "What sets me apart is my diverse background which has shaped me into a well-rounded developer. Before diving into the world of programming, I gained valuable experience in various roles. As a property manager, I honed my communication and problem-solving skills by addressing resident concerns and managing budgets. Additionally, my time as a staffing specialist allowed me to develop an eye for talent and the ability to foster a positive and productive work environment.",  
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
-  },
-  {
-    id: 6,
     icon: <FaBrain />,
     title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
-  },
+    des: "This is an interesting technology and my goal has always been to continuously grow and adapt to the ever-evolving landscape of technology, always seeking new challenges to expand my knowledge and expertise.",
+  }
 ];
