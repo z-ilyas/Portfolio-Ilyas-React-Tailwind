@@ -17,23 +17,12 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            title="Full Stack Software Engineer"
+            subTitle="Prime Digital Academy in Minneapolis,Minnesota (Febuary 2023 - July 2023)"
+            result="Graduated"
+            des=" I have honed my skills in JavaScript, HTML, CSS, JQuery, React, Node.js, Redux, Saga, PostgreSQL, and Git, enabling me to tackle complex projects and develop robust applications."
           />
-          <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
-          />
-          <ResumeCard
-            title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
-          />
+
         </div>
       </div>
       {/* part Two */}
@@ -45,22 +34,10 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=" The Complete 2023 Web Development Bootcamp By Angela Yu"
-            subTitle="Udemy - (01/01/2023 - 20/06/2023) [6 months]"
-            result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
-          />
-          <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Acmegrade (Partner Mood Indigo IIT Bombay) - (10/06/2022 - 30/08/2022) [2-3 months]"
-            result="Online"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
-          />
-          <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
-            result="Online"
-            des=" Learned basics of Neo4j - a database management system "
+            title="Bachelor of Science in Business Management and a Minor in Economics"
+            subTitle="St Cloud State University (SCSU) in St. Cloud,MN, (2016 - 2021)"
+            result="Graduated"
+            des="I gained a comprehensive knowledge of various aspects of businesses. This foundation equipped me with the skills necessary to contribute to the overall success of an organization."
           />
         </div>
       </div>
