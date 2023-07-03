@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiGithub, SiGmail } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 import { logo } from "../../assets/index"
 
 const Footer = () => {
@@ -10,15 +10,11 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/z-ilyas" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
           </span>
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
-            <SiGmail /></a>
-          </span>
-          <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ilyas-a-mohamed-917a691b9/"  target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn /></a>
           </span>
         </div>
